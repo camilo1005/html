@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+}
+.link {
+  color: #1293d4;
+}
+span {
+  color: #1293d4;
+}
+header {
+  align-items: center;
+  display: flex;
+  padding: 20px 152px;
+  width: 100vw;
+  justify-content: space-between;
+  color: white;
+  background-color: #24282b;
+  border-bottom: 5px solid #1293d4;
+}
+
+header nav {
+  padding: 10px;
+  display: flex;
+  gap: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.caja1 {
+  background-color: #24282b;
+  height: 100px;
+  color: white;
+}
+
+.button {
+  float: right;
+  margin: -54px 81px 0 0;
+}
+
+button {
+  background: none;
+  border: none;
+  background-color: #f2491d;
+  border: 1px solid #f2491d;
+  padding: 10px;
+  color: white;
+}
+input {
+  padding: 5px;
+}
+h3 {
+  float: left;
+  margin: 50px 0 50px 60px;
+}
+.cajamovible {
+  background-color: #35424a;
+  height: 100%;
+  width: 50%;
+}
+
+.cajamovible {
+  color: white;
+  padding: 38px;
+  width: 35%;
+  float: right;
+  margin: 27px;
+}
+.caja2 {
+  color: black;
+  margin: 100px;
+}
+.caja3 {
+  background-color: #35424a;
+  height: 100%;
+  width: 55%;
+  color: white;
+  padding: 15px;
+  margin: 80px;
+}
+img {
+  width: 57%;
+  margin: 68px;
+}
+.caja4 {
+  margin: 9px;
+}
+
+footer {
+  display: flex;
+  background-color: #1293d4;
+  height: 100px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
