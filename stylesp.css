@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Open+Sans:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -38,7 +39,7 @@ header nav a {
 
 section {
   display: flex;
-  background: url(../aplicacion/images/cabecera.jpg) 0 -400px;
+  background: url(/images/cabecera.jpg) 0 -400px;
   background-size: cover;
   height: 500px;
   justify-content: center;
@@ -47,8 +48,9 @@ section {
   text-align: center;
   color: white;
 }
+
 h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .caja1 {
@@ -59,23 +61,23 @@ h2 {
 
 .button {
   float: right;
-  margin: -54px 81px 0 0;
+  margin: -68px 100px 0 0;
 }
-
 button {
   background: none;
   border: none;
   background-color: #f2491d;
   border: 1px solid #f2491d;
-  padding: 10px;
+  padding: 11px;
   color: white;
 }
 input {
   padding: 5px;
 }
 h3 {
-  float: left;
-  margin: 50px 0 50px 60px;
+  padding: 29px 152px;
+  width: 100vw;
+  font-size: 28px;
 }
 
 .caja2 {
@@ -94,4 +96,73 @@ footer {
   color: white;
   align-items: center;
   justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 0 150px;
+}
+
+.contenedor1 {
+  width: 70%;
+}
+
+.cajamovible {
+  background-color: #35424a;
+  height: 100%;
+  color: white;
+  padding: 38px;
+  width: 30%;
+  margin: 27px;
+  margin-bottom: 10%;
+  height: 250px;
+}
+
+.contenedor2 {
+  color: black;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.contenedor3 {
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contenedor4 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.gris {
+  background-color: #e6e6e6;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  padding: 51px;
+}
+
+.cajastexto {
+  margin-bottom: 20px;
+}
+.titulo {
+  font-size: 21px;
+}
+.texto {
+  padding: 15px;
+  width: 100%;
+}
+.mensaje {
+  width: 100%;
+  padding: 65px;
+}
+
+.cajamovible img {
+  margin-left: -8%;
+  width: 119%;
+  margin-top: 10%;
+  height: 150%;
 }
