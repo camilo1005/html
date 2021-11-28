@@ -166,3 +166,127 @@ footer {
   margin-top: 10%;
   height: 150%;
 }
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 26px;
+  }
+  header {
+    padding: 30px 47px;
+  }
+  header nav {
+    padding: 14px;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .button {
+    margin: -61px 30px 0 11px;
+  }
+  button {
+    padding: 5px;
+  }
+  input {
+    padding: 3px;
+  }
+
+  h3 {
+    padding: 33px 47px;
+    font-size: 20px;
+  }
+  .caja2 {
+    height: 60vh;
+  }
+  .caja2 img {
+    width: 43%;
+  }
+  .caja2 p {
+    font-size: 53%;
+  }
+
+  footer {
+    height: 50px;
+    font-size: 11px;
+  }
+
+  .contenedor {
+    width: 96%;
+    gap: 29px;
+    padding: 29px 36px;
+  }
+  .cajamovible {
+    height: 496px;
+  }
+  .contenedor1 {
+    width: 70%;
+  }
+  .contenedor4 img {
+    height: 141px;
+  }
+
+  .gris {
+    padding: 31px;
+  }
+  .cajamovible img {
+    margin-left: -27%;
+    width: 156%;
+    margin-top: 23%;
+    height: 47%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+  header {
+    padding: 30px 36px;
+  }
+  header nav {
+    padding: 14px;
+    gap: 10px;
+    font-size: 12px;
+  }
+  .button {
+    margin: -63px 30px 0 11px;
+  }
+  button {
+    padding: 6px;
+  }
+  input {
+    padding: 3px;
+  }
+
+  h3 {
+    padding: 39px 28px;
+    font-size: 19px;
+  }
+  .caja2 {
+    height: 63vh;
+  }
+  .caja2 img {
+    width: 43%;
+  }
+  .caja2 p {
+    font-size: 58%;
+  }
+
+  footer {
+    height: 48px;
+    font-size: 11px;
+  }
+  .contenedor {
+    padding: 0 47px;
+  }
+  .cajamovible {
+    padding: 18px;
+    width: 58%;
+    height: 381px;
+  }
+
+  .cajamovible img {
+    margin-left: -11%;
+    width: 120%;
+    margin-top: 19%;
+    height: 67%;
+  }
+}
