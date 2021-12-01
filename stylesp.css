@@ -290,3 +290,33 @@ footer {
     height: 67%;
   }
 }
+
+@media (max-width: 600px) {
+  .button {
+    margin: -63px 30px 0 11px;
+  }
+  button {
+    padding: 3px;
+  }
+  input {
+    padding: 0px;
+  }
+
+  h3 {
+    padding: 42px 12px;
+    font-size: 13px;
+  }
+
+  .cajamovible {
+    padding: 18px;
+    width: 58%;
+    height: 473px;
+  }
+
+  .cajamovible img {
+    margin-left: -11%;
+    width: 120%;
+    margin-top: 19%;
+    height: 45%;
+  }
+}
